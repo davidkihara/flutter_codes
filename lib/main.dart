@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_crud/screens/custom_messages.dart';
 import 'package:flutter_crud/screens/todo_list.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       //   useMaterial3: true,
       // ),
-      home: const TodoListPage(),
+      home: const CustomMessages(),
     );
   }
 }
